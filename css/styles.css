@@ -1,0 +1,44 @@
+body {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+table {
+  border: 2px solid teal;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 1000px;
+  /*height: 600px;*/
+}
+
+thead {
+  background-color: teal;
+  color: white;
+  border: 1px solid teal;
+  text-align: center;
+  padding: 20px;
+}
+
+tr th:nth-child(1) {
+  text-align: left;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #d8d8d8;
+}
+
+tr {
+  border-bottom: 2px solid teal;
+}
+
+td, th {
+  padding: 15px;
+}
+
+tbody {
+  color: #565555;
+}
